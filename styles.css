@@ -1,0 +1,202 @@
+*{
+    box-sizing: none;
+    margin: 0;
+}
+
+body{
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-size: 1.2rem;
+}
+
+.styling{
+    display: flex;
+}
+
+.part1{
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(5, 5, 5, 0.74)), url("img.webp");
+    height: 100vh;
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-inline: 5rem;
+}
+
+
+.top{
+    margin-top:-150px;
+    max-width: 99%;
+}
+
+
+.colour{
+    color:rgb(255, 94, 0);
+    font-weight: 800;
+}
+
+
+.center{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+
+.learn{
+    max-width: 40%;
+}
+
+.love{
+    max-width: 60%;
+    font-size:1.5rem;
+}
+
+
+.center span{
+    font-weight: 900;
+}
+
+
+.part2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: 50%;
+padding-inline: 5rem;
+
+}
+
+.part2 p{
+    max-width: 67%;
+    text-align: center;
+}
+
+.part2 .bbq{
+    font-weight: bolder;
+}
+
+.part2 .today{
+    margin-bottom: 2.5rem;
+    font-size: 0.94rem;
+    font-weight: 900;
+}
+
+.part2 input{
+    border: 1px solid black;
+    height: 1.5rem;
+    width: 14.5rem;
+    border-radius: 6px;
+    margin-top: 0.6rem; ;
+    margin-bottom:0.5rem ;
+}
+
+.part2 input::placeholder{
+    text-align: center;
+    color: black;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+}
+
+.part2 .submit{
+    background-color:rgb(255, 94, 0) ;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+.part2 .permission{
+    max-width: 40%;
+    word-spacing: 2px;
+}
+
+
+
+
+
+@media (max-width:700px) {
+    .styling{
+        display: inline;
+    }
+    
+    .part1{
+        width: 100%;
+        padding-inline: 0rem;
+    }
+
+    .top{
+        margin-top:0;
+        border-top: 2px solid rgb(255, 94, 0);
+        max-width: 100%;
+    }
+    
+    
+    .love{
+        max-width: 60%;
+        font-size:1.5rem;
+    }
+    
+     
+    .learn{
+        margin-block: 10rem;
+        max-width: 40%;
+        font-size:2.2rem ;
+    }
+    
+    
+    .part2{
+    width: 100%;
+    padding-inline: 0rem;
+    }
+    
+    
+    .part2 .bbq{
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    
+    
+    .part2 .permission{
+        margin-bottom: 5rem;
+        margin-top: 1.5rem;
+        max-width: 40%;
+        word-spacing: 2px;
+    }
+    
+    
+}
+
+
+@media (max-width:643px) {
+    .learn{
+        margin-block: 8rem;
+        
+    }
+}
+
+@media (max-width:378px) {
+    .learn{
+        margin-block:7rem;
+        
+    }
+}
+
+@media (max-width:354px) { 
+    .learn{
+        margin-block: 3rem;
+        
+    }
+}
+
+
